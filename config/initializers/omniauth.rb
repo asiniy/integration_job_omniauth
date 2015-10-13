@@ -9,4 +9,10 @@ Rails.application.config.middleware.use OmniAuth::Builder do
     ],
     access_type: 'offline'
   }
+  provider :facebook, ENV['facebook_app_id'], ENV['facebook_app_secret'], scope: 'email,user_friends,offline_access',
+    client_options: {
+      site: 'https://graph.facebook.com/v2.0',
+      authorize_url: 'https://www.facebook.com/v2.0/dialog/oauth'
+    }
+  provider :linkedin, ENV['linkedin_app_id'], ENV['linkedin_app_secret'], scope: 'r_basicprofile'
 end

@@ -1,2 +1,7 @@
 google_app_id: 'fffa'
 google_app_secret: 'fffa'
+facebook_app_id: 'fffa'
+facebook_app_secret: 'fffa'
+linkedin_app_id: 'fffa'
+linkedin_app_secret: 'fffa'
+linkedin_state: 'verylongsecurekey'

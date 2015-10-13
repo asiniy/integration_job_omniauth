@@ -17,6 +17,9 @@ gem 'figaro'
 # core functionality
 gem 'omniauth'
 gem 'omniauth-google-oauth2'
+gem 'omniauth-facebook'
+gem 'koala'
+gem 'omniauth-linkedin-oauth2'
 gem 'omnicontacts'
 
 group :development, :test do
